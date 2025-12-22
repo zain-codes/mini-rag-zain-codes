@@ -1,3 +1,7 @@
+### run app conda environment
+```bash
+conda activate mini-rag-app-zain-codes
+```
 ### (Optional) Setup you command line interface for better readability
 
 ```bash
