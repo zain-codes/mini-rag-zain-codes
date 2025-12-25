@@ -1,12 +1,9 @@
 from fastapi import FastAPI #web framework
+from routes import base
+
 app = FastAPI()
 
+app.include_router(base.base_router)
 
-@app.get("/welcome") #app as decorator to define a route
-def welcome():
-    return {
-        "message": "Hello World"
-
-    }
 
 
