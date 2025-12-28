@@ -13,7 +13,7 @@ base_router = APIRouter(
 more efficient when there are requests coming from multiple functions or many requests at the same time
 '''
 @base_router.get("/")
-async ``def welcome(): 
+async def welcome(): 
     app_name = os.getenv('APP_NAME')
     app_version = os.getenv('APP_VERSION')
 
